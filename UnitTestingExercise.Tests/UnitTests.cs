@@ -13,14 +13,20 @@ namespace UnitTestingExercise.Tests
 
             //Arrange
             // create a Calculator object
-            
+
+            var instanceObject = new Calculator();
+
 
             //Act
-                // call the Add method that is located in the Calculator class
-                // and store its result in a variable named actual
+            // call the Add method that is located in the Calculator class
+            // and store its result in a variable named actual
+
+            var actual = instanceObject.Add();
 
             //Assert
-                //Assert.Equal(expected, actual);
+            //Assert.Equal(expected, actual);
+
+            Assert.Equal(10, actual);
         }
 
         [Theory]

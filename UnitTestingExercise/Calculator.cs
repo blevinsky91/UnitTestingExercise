@@ -3,14 +3,16 @@ namespace UnitTestingExercise
 {
     public class Calculator
     {
-        // Step 1: Add a reference to your UnitTestingExercise project:
+        // Step 1: Add a reference to your UnitTestingExercise project: - done 
 
-        // Right-click on the 'Dependencies' folder in your UnitTestingExercise.Tests project
+
+
+        // Right-click on the 'Dependencies' folder in your UnitTestingExercise.Tests project - done
         // and add your reference to the UnitTestingExercise project
 
 
 
-        // Step 2: Create an Add method that accepts 3 integers, adds those integers, and returns an integer
+        // Step 2: Create an Add method that accepts 3 integers, adds those integers, and returns an integer - done
         //For Example:
         public int Add(int num1, int num2, int num3)
         {
@@ -18,7 +20,7 @@ namespace UnitTestingExercise
         }
 
 
-        // Step 3: Navigate to the UnitTests.cs file and complete the AddTest unit test method 
+        // Step 3: Navigate to the UnitTests.cs file and complete the AddTest unit test method - done
 
 
         // Step 4: 
